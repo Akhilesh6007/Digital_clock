@@ -13,7 +13,7 @@ function updateClock(){
 
     if(h > 12) h = h - 12;
 
-    if (h >= 12) ampm = "PM"
+    if (h <= 12) ampm = "PM"
     else ampm = "AM"
 
     hourE1.innerText = h;
